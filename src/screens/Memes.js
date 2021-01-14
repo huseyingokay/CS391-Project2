@@ -1,14 +1,13 @@
 import React from 'react';
 
-class Login extends React.Component {
-
+class Memes extends React.Component {
   render() {
     return (
       <>
-        <p>Login Page</p>
+        <p>Meme Page</p>
       </>
     );
   }
 }
 
-export default Login;
+export default Memes;
