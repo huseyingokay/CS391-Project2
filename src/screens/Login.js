@@ -14,7 +14,6 @@ class Login extends React.Component {
   }
 
   handleSubmit(e) {
-    console.log("HERE");
     this.setState({
       [e.target.id]: e.target.value,
     });
