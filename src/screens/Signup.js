@@ -1,6 +1,5 @@
 import React from 'react';
 //import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button, Form } from 'react-bootstrap';
 
 
 class Signup extends React.Component {
@@ -41,7 +40,7 @@ class Signup extends React.Component {
 
                 <button type="submit" className="btn btn-dark btn-lg btn-block">Register</button>
                 <p className="forgot-password text-right">
-                    Already registered <a href="#">log in?</a>
+                    Already registered <a href="/">log in?</a>
                 </p>
             </form>
 
