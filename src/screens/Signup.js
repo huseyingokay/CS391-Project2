@@ -4,8 +4,20 @@ import ReactDOM from 'react-dom';
 import { Button, Form } from 'react-bootstrap';
 
 
-class Signup extends React.Component {
 
+
+class Signup extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state ={
+            email:"",
+            emailValidation: "",
+            password: "",
+            passwordValidation: "",
+            userName: ""
+        }
+
+    }
 
   
   render() {
@@ -32,7 +44,7 @@ class Signup extends React.Component {
 
                 <div className="form-group">
                     <label>Password</label>
-                    <input type="password" className="form-control" placeholder="Enter password" />
+                    <input type="email" className="form-control" placeholder="Enter password" />
                 </div>
 
                 <div className="form-group">
