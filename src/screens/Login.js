@@ -20,12 +20,6 @@ class Login extends React.Component {
     });
   }
 
-  route(e) {
-    console.log(this.state.email);
-    console.log(this.state.password);
-    e.preventDefault();
-  }
-
   logIn(e){
     let isExist = isUserExist(this.state.email, this.state.password);
     if(!isExist){
