@@ -43,7 +43,7 @@ class Login extends React.Component {
               </Button>
           </Form>
           <p> Don't you have an account? </p>
-          <Button variant="warning" href="./signup"> Sign Up</Button>
+          <Button variant="warning" href="/signup"> Sign Up</Button>
       </>
     );
   }
