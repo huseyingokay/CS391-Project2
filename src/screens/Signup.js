@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 //import 'bootstrap/dist/css/bootstrap.min.css';
+import { Button, Form } from 'react-bootstrap';
+
 
 class Signup extends React.Component {
 
@@ -9,7 +11,7 @@ class Signup extends React.Component {
   render() {
 
     return (
-
+        <>
             <form>
                 <h3>Register</h3>
 
@@ -39,7 +41,7 @@ class Signup extends React.Component {
                 </p>
             </form>
 
-
+        </>
     );
   }
 }

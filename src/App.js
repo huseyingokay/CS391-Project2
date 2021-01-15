@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import Login from './screens/Login';
+//import Login from './screens/Login';
 import Signup from './screens/Signup';
 import Memes from './screens/Memes';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
@@ -12,14 +12,14 @@ class App extends React.Component {
       
     }
   }
-
+// <Route exact path="/" component={Login} />
   render() {
     return (
       <>
         <BrowserRouter>
             <Switch>
-              <Route exact path="/" component={Login} />
-              <Route exact path="/signup" component={Signup} />
+            
+              <Route exact path="/" component={Signup} />
               <Route exact path="/memes" component={Memes} />
             </Switch>
         </BrowserRouter>
