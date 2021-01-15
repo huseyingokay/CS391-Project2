@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Form } from 'react-bootstrap';
+import { Button, Form, Col } from 'react-bootstrap';
 
 class Login extends React.Component {
   constructor(props){
@@ -27,21 +27,23 @@ class Login extends React.Component {
   render() {
     return (
       <>
-        <Form action="/memes" method="" onSubmit={(e) => this.route(e)}>
-          <Form.Group controlId="email">
-            <Form.Label>Email address</Form.Label>
-            <Form.Control type="email" placeholder="Enter email" onChange={(e) => this.handleSubmit(e)}/>
-          </Form.Group>
+          <Form style={{width:"100%", }} action="/memes" method="" onSubmit={(e) => this.route(e)}>
+              <Form.Group controlId="email">
+                <Form.Label>Email address</Form.Label>
+                <Form.Control style={{width:'30%'}} type="email" placeholder="Enter email" onChange={(e) => this.handleSubmit(e)}/>
+              </Form.Group>
 
-          <Form.Group controlId="password">
-            <Form.Label>Password</Form.Label>
-            <Form.Control type="password" placeholder="Enter Password" onChange={(e) => this.handleSubmit(e)}/>
-          </Form.Group>
+              <Form.Group controlId="password">
+                <Form.Label>Password</Form.Label>
+                <Form.Control style={{width:'30%'}} type="password" placeholder="Enter Password" onChange={(e) => this.handleSubmit(e)}/>
+              </Form.Group>
 
-          <Button variant="primary" type="submit">
-            Submit
-          </Button>
-        </Form>
+              <Button variant="warning" type="submit">
+                Log in
+              </Button>
+          </Form>
+          <p> Don't you have an account? </p>
+          <Button variant="warning" href="./signup"> Sign Up</Button>
       </>
     );
   }
