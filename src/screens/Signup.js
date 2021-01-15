@@ -43,6 +43,7 @@ class Signup extends React.Component {
                     password: this.state.password
                 }
                 window.localStorage.setItem(this.state.userName, JSON.stringify(user));
+                alert("Successfully registered the user");
             }
             else {
                 e.preventDefault();
