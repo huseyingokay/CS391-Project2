@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-//import Login from './screens/Login';
+import Login from './screens/Login';
 import Signup from './screens/Signup';
 import Memes from './screens/Memes';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
