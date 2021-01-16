@@ -18,6 +18,7 @@ class App extends React.Component {
   render() {
     return (
       <>
+      <NavBar></NavBar>
         <BrowserRouter>
             <Switch>
               <Route exact path="/" component={Login} />

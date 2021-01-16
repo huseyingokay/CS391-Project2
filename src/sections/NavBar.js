@@ -15,6 +15,9 @@ class NavBar extends React.Component {
   <Navbar.Brand href="/memes">Meme Page</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
+  <Nav>
+      <Nav.Link href="/">Return To Login Page</Nav.Link>
+    </Nav>
   </Navbar.Collapse>
 </Navbar>
         </>
