@@ -3,6 +3,7 @@ import React from 'react';
 import Login from './screens/Login';
 import Signup from './screens/Signup';
 import Memes from './screens/Memes';
+import moduleName from './sections/NavBar';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 class App extends React.Component {
