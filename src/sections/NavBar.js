@@ -4,7 +4,6 @@ import { Navbar, Nav } from 'react-bootstrap';
 
 
 
-
 class NavBar extends React.Component {
 
   render() {

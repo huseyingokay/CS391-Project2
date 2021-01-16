@@ -26,6 +26,7 @@ class App extends React.Component {
               <Route exact path="/memes" component={Memes} />
             </Switch>
         </BrowserRouter>
+        <Footer></Footer>
       </>
     );
   }
