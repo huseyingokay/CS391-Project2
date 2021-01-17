@@ -1,7 +1,6 @@
 import React from "react";
-import isUserExist from "../helpers/isUserExist"
 import { Button, Form, Col, Row, Container } from "react-bootstrap";
-import validation from "../helpers/validation";
+import signUp from "../helpers/signUp";
 
 class Signup extends React.Component {
     constructor(props) {
@@ -22,43 +21,12 @@ class Signup extends React.Component {
         });
     }
 
-    signUp(e) {
-
-        console.log(this.state);
-
-        let isValidate = validation(this.state.userName,
-            this.state.email,
-            this.state.emailValidation,
-            this.state.password,
-            this.state.passwordValidation
-        );
-        if (!isValidate) {
-            e.preventDefault();
-        }
-        else {
-            if (localStorage) {
-                var user = {
-                    userName: this.state.userName,
-                    email: this.state.email,
-                    password: this.state.password
-                }
-                window.localStorage.setItem(this.state.userName, JSON.stringify(user));
-                alert("Successfully registered the user");
-            }
-            else {
-                e.preventDefault();
-                alert("This browser doesn't support local storage!");
-            }
-        }
-
-    }
-
     render() {
         return (
             <Container fluid style={{ marginTop: "5%" }}>
                 <Row className="justify-content-center">
                     <Col xs="auto" md="3">
-                        <Form action="/" method="" onSubmit={(e) => this.signUp(e)}>
+                        <Form action="/" method="" onSubmit={(e) => signUp(e, this.state)}>
                             <Form.Group controlId="userName">
                                 <Form.Label>User Name</Form.Label>
                                 <Form.Control

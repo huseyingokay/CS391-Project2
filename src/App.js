@@ -18,7 +18,7 @@ class App extends React.Component {
   render() {
     return (
       <>
-      <NavBar></NavBar>
+      <NavBar />
         <BrowserRouter>
             <Switch>
               <Route exact path="/" component={Login} />
@@ -26,7 +26,7 @@ class App extends React.Component {
               <Route exact path="/memes" component={Memes} />
             </Switch>
         </BrowserRouter>
-        <Footer></Footer>
+        <Footer />
       </>
     );
   }
