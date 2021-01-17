@@ -7,11 +7,15 @@
   <li>Ayberk Akbalık</li>
   <li>Hüseyin Gökay</li>
 <ul>
+
+<br />
   
 <h3>Project Description</h3>
 <p>This Project's main purpose is to provide and direct to a sellection of memes and other digital "joke" entertainment.</p>
 
 <p>This project will also have the capability to make someone log-in and sing-up and accsess to entertainment.</p>
+
+<br />
 
 <h3>Possible scenerios</h3>
 <p>First time user scenerio: User must first Sign-up, after that they will be redirected to the login page as a signed user.</p>
@@ -22,11 +26,13 @@
   <li>mail and mail controll must be the same.</li>
   <li>password and password cotroll must be the same.</li>
   </ul>
+  <br />
 <p><strong>Signed user scenario:</strong> If User has an account they will fill out their account Information (E-mail & password). If these are correct and valid then the page will direct to.</p>
 
 The main page. If they can't pass throught validation then an error will pop up.
 Once on the main page the user can view the digital entertainmet (as also known as meme.)
 
+<br />
 
 <h3>Mission Contribution</h3>
 <ul>
@@ -35,5 +41,8 @@ Once on the main page the user can view the digital entertainmet (as also known 
   <li>Hamza Ayberk Akbalık: created memes page, responsive cards of meme images by using react-bootstrap.</li> 
   <li>Hüseyin Gökay: created login page with its method isUserExists by using react-bootstrap, created app.js by using react-router and created folder structure. </li>
 </ul>
+
+<br />
+
 <h3>Instructions for running the application<h3>
   <p>First of all users must go login page in order to enter meme page. If the user has not have an account yet.They must sign up. So users should click SignUp button. If inputs are fine, users' informations are automatically saved to system. Then the users should click Go to Login button then they can enter the meme screen via login consol. After users enter the meme page they can search freely, go different youtube contents via links in navigation bar and can logout via Logout link in the upper right side of the page.<p>  
