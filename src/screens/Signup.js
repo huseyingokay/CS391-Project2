@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Form, Col, Row, Container } from "react-bootstrap";
+import formEnter from "../helpers/formEnter";
 import signUp from "../helpers/signUp";
 
 class Signup extends React.Component {
@@ -20,66 +21,39 @@ class Signup extends React.Component {
             [e.target.id]: e.target.value,
         });
     }
+                       
+    forms() {
+        let userNameForm = formEnter("User Name", this.state.userName, "text", "Enter user name", this.handleSubmit);
+        let EmailForm = formEnter("User Email", this.state.email, "email", "Enter email", this.handleSubmit);
+        let EmailValidationForm = formEnter("Email Validation", this.state.emailValidation, "email", "Re-enter email", this.handleSubmit);
+        let passwordForm = formEnter("User Password", this.state.password, "password", "Enter Password", this.handleSubmit);
+        let passwordValidationForm = formEnter("Password Validation", this.state.passwordValidation, "password", "Re-enter password", this.handleSubmit);
+        return (
+            <Form action="/" method="" onSubmit={(e) => signUp(e, this.state)}>
+                {userNameForm}
+                {EmailForm}
+                {EmailValidationForm}
+                {passwordForm}
+                {passwordValidationForm}
+
+                <Button variant="warning" type="submit" style={{marginRight:"2%"}}>
+                    Signup
+                </Button>
+
+                <Button variant="warning" type="submit">
+                    Go to Login
+                </Button>
+
+            </Form>
+        );
+    };
 
     render() {
         return (
             <Container fluid style={{ marginTop: "5%" }}>
                 <Row className="justify-content-center">
-                    <Col xs="auto" md="3">
-                        <Form action="/" method="" onSubmit={(e) => signUp(e, this.state)}>
-                            <Form.Group controlId="userName">
-                                <Form.Label>User Name</Form.Label>
-                                <Form.Control
-                                    type="text"
-                                    placeholder="Enter User Name"
-                                    onChange={(e) => this.handleSubmit(e)}
-                                />
-                            </Form.Group>
-
-                            <Form.Group controlId="email">
-                                <Form.Label>Email address</Form.Label>
-                                <Form.Control
-                                    type="email"
-                                    placeholder="Enter email"
-                                    onChange={(e) => this.handleSubmit(e)}
-                                />
-                            </Form.Group>
-
-                            <Form.Group controlId="emailValidation">
-                                <Form.Label>Email address</Form.Label>
-                                <Form.Control
-                                    type="email"
-                                    placeholder="validate email"
-                                    onChange={(e) => this.handleSubmit(e)}
-                                />
-                            </Form.Group>
-
-                            <Form.Group controlId="password">
-                                <Form.Label>Password</Form.Label>
-                                <Form.Control
-                                    type="password"
-                                    placeholder="Enter Password"
-                                    onChange={(e) => this.handleSubmit(e)}
-                                />
-                            </Form.Group>
-
-                            <Form.Group controlId="passwordValidation">
-                                <Form.Label>Password</Form.Label>
-                                <Form.Control
-                                    type="password"
-                                    placeholder="Validate Password"
-                                    onChange={(e) => this.handleSubmit(e)}
-                                />
-                            </Form.Group>
-
-                            <Button variant="warning" type="submit">
-                                Signup
-                            </Button>
-
-                            <Button variant="warning" type="submit">
-                                Go to Login
-                            </Button>
-                        </Form>
+                    <Col xs="auto" md="auto">
+                        {this.forms()}
                     </Col>
                 </Row>
             </Container>
