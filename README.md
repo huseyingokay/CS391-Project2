@@ -46,4 +46,9 @@ Once on the main page the user can view the digital entertainmet (as also known 
 <br />
 
 <h3>Instructions for running the application<h3>
-  <p>First of all users must go login page in order to enter meme page. If the user has not have an account yet.They must sign up. So users should click SignUp button. If inputs are fine, users' informations are automatically saved to system. Then the users should click Go to Login button then they can enter the meme screen via login consol. After users enter the meme page they can search freely, go different youtube contents via links in navigation bar and can logout via Logout link in the upper right side of the page.<p>  
+<ul>
+  <li> Install Node.js https://nodejs.org/en/ </li>
+  <li> Clone the repo by using the link provided by github. Run "git clone [link of repo]" command in on cmd to clone the repo </li>
+  <li> Run "npm install" command on cmd for the first setup </li>
+  <li> Run "npm start " command on cmd to run the application </li>
+</ul> 
