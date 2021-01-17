@@ -13,7 +13,7 @@
 <h3>Project Description</h3>
 <p>This Project's main purpose is to provide and direct to a sellection of memes and other digital "joke" entertainment.</p>
 
-<p>This project will also have the capability to make someone log-in and sing-up and accsess to entertainment.</p>
+<p>This project will also have the capability to make someone log-in and sing-up and access to entertainment.</p>
 
 <br />
 
@@ -22,8 +22,8 @@
 
 <p>To sign up they must fill out the signup form with their information. These information have to be in the constraints given bellow:</p>
   <ul>
-  <li>password must be at least 8 figures and max 15 figures, at least one uppercase and one lowercase char and one number.</li>
-  <li>mail and mail controll must be the same.</li>
+  <li>password must be at least 8 figures and max 15 figures, at least one of each must be in the password: one uppercase and one lowercase char, one number and one special character.</li>
+  <li>mail and mail control must be the same.</li>
   <li>password and password cotroll must be the same.</li>
   </ul>
   <br />
@@ -46,4 +46,11 @@ Once on the main page the user can view the digital entertainmet (as also known 
 <br />
 
 <h3>Instructions for running the application<h3>
-  <p>First of all users must go login page in order to enter meme page. If the user has not have an account yet.They must sign up. So users should click SignUp button. If inputs are fine, users' informations are automatically saved to system. Then the users should click Go to Login button then they can enter the meme screen via login consol. After users enter the meme page they can search freely, go different youtube contents via links in navigation bar and can logout via Logout link in the upper right side of the page.<p>  
+<ul>
+  <li> Install Node.js https://nodejs.org/en/ </li>
+  <li> Clone the repo by using the link provided by github. Run "git clone https://github.com/huseyingokay/cs391-project2" command in on cmd to clone the repo </li>
+  <li> Run "npm install" command on cmd for the first setup </li>
+  <li> Run "npm install react-router-dom" on cmd for react-router library installation </li>
+  <li> Run "npm install react-bootstrap bootstrap" on cmd for react-bootstrap library installation </li>
+  <li> Run "npm start" command on cmd to run the application </li>
+</ul> 
