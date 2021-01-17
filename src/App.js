@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
 import Login from './screens/Login';
-import Signup from './screens/Signup';
+import Signup from './screens/SignUp/Signup';
 import Memes from './screens/Memes/Memes';
 import Header from './sections/Header';
 import Footer from './sections/Footer';
@@ -18,11 +18,7 @@ class App extends React.Component {
   render() {
     return (
       <>
-<<<<<<< HEAD
-      <NavBar />
-=======
       <Header></Header>
->>>>>>> 7450cfec48f668c6ed03ef8151547871afc6ad90
         <BrowserRouter>
             <Switch>
               <Route exact path="/" component={Login} />
