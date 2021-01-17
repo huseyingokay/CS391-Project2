@@ -33,7 +33,7 @@ class Login extends React.Component {
     return (
       <Container fluid style={{ marginTop: "5%"}}>
         <Row className="justify-content-center">
-          <Col xs="auto" md="3">
+          <Col xs="auto" md="auto">
             <Form action="/memes" method="" onSubmit={(e) => this.logIn(e)}>
               <Form.Group controlId="email">
                 <Form.Label>Email address</Form.Label>
@@ -60,7 +60,7 @@ class Login extends React.Component {
           </Col>
         </Row>
         <Row className="justify-content-center" style={{ marginTop: "2%" }}>
-          <Col xs="auto" md="3">
+          <Col xs="auto" md="auto">
             <p> Don't you have an account? </p>
             <Button variant="warning" href="/signup">
               Sign Up
