@@ -7,6 +7,7 @@ body {
     margin: 15px 0px;
     float: left;
     padding: 5px;
+    object-fit: contain;
 }
 div.memes img {
     width: 450px;

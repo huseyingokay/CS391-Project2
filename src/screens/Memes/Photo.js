@@ -8,7 +8,7 @@ class Photo extends React.Component {
     return (
      <div class="memes">
       <Card className="mb-3">
-        <div class="img">
+        <div className="img-responsive">
          <Card.Img src={this.props.link} />
         </div>
         <div class="writing">
