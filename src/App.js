@@ -3,7 +3,7 @@ import React from 'react';
 import Login from './screens/Login';
 import Signup from './screens/Signup';
 import Memes from './screens/Memes/Memes';
-import NavBar from './sections/NavBar';
+import Header from './sections/Header';
 import Footer from './sections/Footer';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
@@ -18,7 +18,7 @@ class App extends React.Component {
   render() {
     return (
       <>
-      <NavBar></NavBar>
+      <Header></Header>
         <BrowserRouter>
             <Switch>
               <Route exact path="/" component={Login} />

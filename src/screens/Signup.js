@@ -90,6 +90,9 @@ class Signup extends React.Component {
                         {this.forms()}
                     </Col>
                 </Row>
+                <br></br>
+        <br></br>
+        <br></br>
             </Container>
         );
     }
