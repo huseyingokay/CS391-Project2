@@ -32,7 +32,8 @@ Once on the main page the user can view the digital entertainmet (as also known 
 <h3>Mission Contribution:</h3>
 <ol>
   <li>Mehmet Arda Sümbül: created responsive Navbar with react-bootstrap and Footer for pages.</li>
-  <li>Ege Öztaş: created the signup page using react-bootsrap. Created the validation and user storage systems.</li>
+  <li>Ege Öztaş: created the signup page using react-bootstrap. Created the validation and user storage systems.</li>
   <li>Hamza Ayberk Akbalık: created memes page, responsive cards of meme images by using react-bootstrap.</li> 
+  <li>Hüseyin Gökay: created login page with its method isUserExists by using react-bootstrap, created app.js by using react-router and created folder structure. </li>
 </ol>
 
