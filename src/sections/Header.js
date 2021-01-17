@@ -4,7 +4,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 
 
 
-class NavBar extends React.Component {
+class Header extends React.Component {
 
   render() {
     return (
@@ -29,4 +29,4 @@ class NavBar extends React.Component {
     )
   }
 }
-export default NavBar;
+export default Header;
