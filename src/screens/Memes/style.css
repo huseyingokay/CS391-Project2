@@ -3,13 +3,17 @@ body {
    background-color:hsl(50,50%,90%);
 }
   
-img {
-    width: 400px;
+.memes {
+    margin: 15px 0px;
+    float: left;
+    padding: 5px;
+}
+div.memes img {
+    width: 450px;
     height: 400px;
-    object-fit: contain;
 }
   
-.writing {
+div.writing {
     padding: 10px;
     text-align: center;
     font-family: Arial;
@@ -19,6 +23,6 @@ img {
     border: 2px solid #ffaa22;
 }
   
-memes:hover {
+div.memes:hover {
     background-color: black;
 }
