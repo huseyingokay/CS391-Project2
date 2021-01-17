@@ -11,36 +11,37 @@
 <br />
   
 <h3>Project Description</h3>
-<p>This Project's main purpose is to provide and direct to a sellection of memes and other digital "joke" entertainment.</p>
+<p>This Project's main purpose is to provide and direct to a selection of memes and other digital "joke" entertainment.</p>
 
-<p>This project will also have the capability to make someone log-in and sing-up and access to entertainment.</p>
+<p>This project will also have the capability to make someone log-in and sing-up and access to entertainment. Webstorage is used to keep users' data</p>
 
 <br />
 
-<h3>Possible scenerios</h3>
-<p>First time user scenerio: User must first Sign-up, after that they will be redirected to the login page as a signed user.</p>
+<h3>Possible scenarios</h3>
+<p>First time user scenario: User must first Sign-up, after that they will be redirected to the login page as a signed user.</p>
 
-<p>To sign up they must fill out the signup form with their information. These information have to be in the constraints given bellow:</p>
+<p>To sign up they must fill out the signup form with their information. These information have to be in the constraints given below:</p>
   <ul>
-  <li>password must be at least 8 figures and max 15 figures, at least one of each must be in the password: one uppercase and one lowercase char, one number and one special character.</li>
-  <li>mail and mail control must be the same.</li>
-  <li>password and password cotroll must be the same.</li>
+  <li>Password must be at least 8 figures and max 15 figures, at least one of each must be in the password: one uppercase and one lowercase char, one number and one special character.</li>
+  <li>Mail and mail control must be the same.</li>
+  <li>Password and password control must be the same.</li>
+  <li>Mail and username should be unique. </li>
   </ul>
   <br />
-<p><strong>Signed user scenario:</strong> If User has an account they will fill out their account Information (E-mail & password). If these are correct and valid then the page will direct to meme page. Once there you can log back out from headers button.</p>
-<p><strong>New user scenario:</strong> If User does not have an account they must go to sign in to the web site. They must fill out the given form. If these are correct and valid then the page will direct back to log in page. Then Signed user screnio will start.</p>
+<p><strong>Signed user scenario:</strong> If User has an account they will fill out their account information (E-mail & password). If these are correct and valid then the page will direct to memes page. Once there you can log back out from headers button.</p>
+<p><strong>New user scenario:</strong> If User does not have an account they must go to sign in to the website. They must fill out the given form. If these are correct and valid then the page will direct back to log in page. Then Signed user scenario will start.</p>
 
 The main page. If they can't pass throught validation then an error will pop up.
-Once on the main page the user can view the digital entertainmet (as also known as meme.)
+Once on the main page the user can view the digital entertainment (as also known as memes.)
 
 <br />
 
 <h3>Mission Contribution</h3>
 <ul>
-  <li>Mehmet Arda Sümbül: created responsive Navbar with react-bootstrap and Footer for pages.</li>
-  <li>Ege Öztaş: created the signup page using react-bootstrap. Created the validation and user storage systems.</li>
-  <li>Hamza Ayberk Akbalık: created memes page, responsive cards of meme images by using react-bootstrap.</li> 
-  <li>Hüseyin Gökay: created login page with its method isUserExists by using react-bootstrap, created app.js by using react-router and created folder structure. </li>
+  <li>Mehmet Arda Sümbül: Created responsive Navbar with react-bootstrap and Footer for pages.</li>
+  <li>Ege Öztaş: Created the signup page using react-bootstrap. Created the validation and user storage systems.</li>
+  <li>Hamza Ayberk Akbalık: Created memes page, responsive cards of meme images by using react-bootstrap.</li> 
+  <li>Hüseyin Gökay: Created login page with its method isUserExists by using react-bootstrap, created app.js by using react-router and created folder structure. </li>
 </ul>
 
 <br />
