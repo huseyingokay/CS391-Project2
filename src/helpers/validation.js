@@ -1,6 +1,12 @@
 const validation = (userName, email, emailValidation, password, passwordValidation) => {
     const items = { ...localStorage };
 
+    if(userName == "" || email == "" || emailValidation == "" || password == "" || passwordValidation == ""){
+        console.log("You must enter all the blanks!");
+        alert("You must enter all the blanks!");
+        return false;
+    }
+
     for (var index in items) {
         var user = JSON.parse(items[index]);
         if (user.userName === userName) {
