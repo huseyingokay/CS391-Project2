@@ -33,6 +33,6 @@ Once on the main page the user can view the digital entertainmet (as also known 
 <ol>
   <li>Mehmet Arda Sümbül: created responsive Navbar with react-bootstrap and Footer for pages.</li>
   <li>Ege Öztaş: created the signup page using react-bootsrap. Created the validation and user storage systems.</li>
-
+  <li>Hamza Ayberk Akbalık: created memes page, responsive cards of meme images by using react-bootstrap.</li> 
 </ol>
 
