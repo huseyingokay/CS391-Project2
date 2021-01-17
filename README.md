@@ -28,6 +28,7 @@
   </ul>
   <br />
 <p><strong>Signed user scenario:</strong> If User has an account they will fill out their account Information (E-mail & password). If these are correct and valid then the page will direct to.</p>
+<p><strong>New user scenario:</strong> If User does not have an account they must go to sign in to the web site. . If these are correct and valid then the page will direct to.</p>
 
 The main page. If they can't pass throught validation then an error will pop up.
 Once on the main page the user can view the digital entertainmet (as also known as meme.)
