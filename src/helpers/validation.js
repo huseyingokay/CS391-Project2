@@ -1,7 +1,7 @@
 const validation = (userName, email, emailValidation, password, passwordValidation) => {
     const items = { ...localStorage };
 
-    if (userName == "" || email == "" || emailValidation == "" || password == "" || passwordValidation == "") {
+    if (userName === "" || email === "" || emailValidation === "" || password === "" || passwordValidation === "") {
         console.log("You must fill all the forms!");
         alert("You must fill all the forms!");
         return false; 
@@ -16,23 +16,21 @@ const validation = (userName, email, emailValidation, password, passwordValidati
         }
     }
 
-    if (emailValidation != email) {
+    if (emailValidation !== email) {
         console.log("Please validate with correct Email!");
         alert("Please validate with correct Email!");
         return false;
     }
 
-    var ExamplePassword = /^[A-Za-z]\w{7,14}$/;
-    if (password.value.match(ExamplePassword)) {
-        alert('Correct, try another...')
-        return true;
-    }
-    else {
-        alert('Wrong...!')
+    
+    if (password.length < 8 || password.length > 15) {
+        console.log("password must contain between 8 to 15 characters");
+        alert("password must contain between 8 to 15 characters");
         return false;
     }
-
-    if (password != passwordValidation) {
+    
+  
+    if (password !== passwordValidation) {
         console.log("Please validate with correct Password!");
         alert("Please validate with correct Password!");
         return false;
