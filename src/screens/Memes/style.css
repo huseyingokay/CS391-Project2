@@ -3,15 +3,12 @@ body {
    background-color:hsl(50,50%,90%);
 }
   
-.memes {
-    margin: 15px 0px;
-    float: left;
-    padding: 5px;
-    object-fit: contain;
-}
-div.memes img {
+
+
+img {
     width: 450px;
     height: 400px;
+    object-fit: contain;
 }
   
 div.writing {
@@ -20,8 +17,7 @@ div.writing {
     font-family: Arial;
     color:darkblue;
     font-size: 17px;
-    background-color: #ffec64;
-    border: 2px solid #ffaa22;
+    background-color: #ffec64;  
 }
   
 div.memes:hover {
