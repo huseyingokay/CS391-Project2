@@ -1,6 +1,6 @@
 <h2>CS391 Project2</h2>
 
-<h4>Project Members</h4>
+<h3>Project Members</h3>
 <ul>
   <li>Ege Öztaş</li>
   <li>Arda Sümbül</li>
@@ -8,12 +8,12 @@
   <li>Hüseyin Gökay</li>
 <ul>
   
-<h4>Project Description</h4>
+<h3>Project Description</h3>
 <p>This Project's main purpose is to provide and direct to a sellection of memes and other digital "joke" entertainment.</p>
 
 <p>This project will also have the capability to make someone log-in and sing-up and accsess to entertainment.</p>
 
-<h4>Possible scenerios</h4>
+<h3>Possible scenerios</h3>
 <p>First time user scenerio: User must first Sign-up, after that they will be redirected to the login page as a signed user.</p>
 
 <p>To sign up they must fill out the signup form with their information. These information have to be in the constraints given bellow:</p>
