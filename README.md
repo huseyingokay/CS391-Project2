@@ -22,7 +22,7 @@
 
 <p>To sign up they must fill out the signup form with their information. These information have to be in the constraints given bellow:</p>
   <ul>
-  <li>password must be at least 8 figures and max 15 figures, at least one uppercase and one lowercase char and one number.</li>
+  <li>password must be at least 8 figures and max 15 figures, at least one uppercase and one lowercase char, one number and one special character.</li>
   <li>mail and mail controll must be the same.</li>
   <li>password and password cotroll must be the same.</li>
   </ul>
