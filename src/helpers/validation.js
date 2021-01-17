@@ -23,12 +23,10 @@ const validation = (userName, email, emailValidation, password, passwordValidati
     }
 
     
-    if (password.length < 8 || password.length > 15) {
-        console.log("password must contain between 8 to 15 characters");
-        alert("password must contain between 8 to 15 characters");
+    if (!/^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{7,15}$/g.test(password)) {
+        alert('Password must  contain between 8 to 15 characters and must contain at least one numeric digit and a special character')
         return false;
     }
-    
   
     if (password !== passwordValidation) {
         console.log("Please validate with correct Password!");
