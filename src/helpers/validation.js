@@ -16,6 +16,15 @@ const validation = (userName, email, emailValidation, password, passwordValidati
         }
     }
 
+    for (var index in items) {
+        var user = JSON.parse(items[index]);
+        if (user.email === email) {
+            console.log("This email is taken. Use another one!");
+            alert("This email is taken. Use another one!");
+            return false;
+        }
+    }
+
     if (emailValidation !== email) {
         console.log("Please validate with correct Email!");
         alert("Please validate with correct Email!");
