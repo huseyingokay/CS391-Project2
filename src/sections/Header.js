@@ -4,14 +4,14 @@ import { Navbar, Nav } from 'react-bootstrap';
 
 
 
-class NavBar extends React.Component {
+class Header extends React.Component {
 
   render() {
     return (
 
       <>
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-          <Navbar.Brand href="/memes">Meme Page</Navbar.Brand>
+          <Navbar.Brand>Meme Page</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
@@ -20,7 +20,7 @@ class NavBar extends React.Component {
               <Nav.Link href="https://www.youtube.com/watch?v=Z9XfN5wLKMU" target="_blank">Defend KEBAB</Nav.Link>
             </Nav>
             <Nav>
-              <Nav.Link href="/">Return To Login Page</Nav.Link>
+              <Nav.Link href="/">Logout</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
@@ -29,4 +29,4 @@ class NavBar extends React.Component {
     )
   }
 }
-export default NavBar;
+export default Header;
