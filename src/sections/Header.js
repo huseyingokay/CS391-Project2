@@ -20,7 +20,7 @@ class Header extends React.Component {
               <Nav.Link href="https://www.youtube.com/watch?v=Z9XfN5wLKMU" target="_blank">Defend KEBAB</Nav.Link>
             </Nav>
             <Nav>
-              <Nav.Link href="/">Logout</Nav.Link>
+              <Nav.Link href="/">Go back to Login</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
