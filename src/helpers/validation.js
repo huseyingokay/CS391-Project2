@@ -23,7 +23,7 @@ const validation = (userName, email, emailValidation, password, passwordValidati
     }
 
     
-    if (!/^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{7,15}$/g.test(password)) {
+    if (!/^(?=.*[0-9])(?=.*[.!@#$%^&*])[a-zA-Z0-9!.@#$%^&*]{7,15}$/g.test(password)) {
         alert('Password must  contain between 8 to 15 characters and must contain at least one numeric digit and a special character')
         return false;
     }

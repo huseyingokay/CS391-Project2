@@ -31,7 +31,7 @@ class Login extends React.Component {
 
   render() {
     return (
-      <Container fluid style={{ marginTop: "5%" }}>
+      <Container fluid style={{ marginTop: "5%"}}>
         <Row className="justify-content-center">
           <Col xs="auto" md="3">
             <Form action="/memes" method="" onSubmit={(e) => this.logIn(e)}>
@@ -83,6 +83,8 @@ class Login extends React.Component {
         <br></br>
         <br></br>
         <br></br>
+        <br />
+        <br />
       </Container>
      
     );

@@ -1,0 +1,24 @@
+
+body {
+   background-color:hsl(50,50%,90%);
+}
+  
+img {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+}
+  
+.writing {
+    padding: 10px;
+    text-align: center;
+    font-family: Arial;
+    color:darkblue;
+    font-size: 17px;
+    background-color: #ffec64;
+    border: 2px solid #ffaa22;
+}
+  
+memes:hover {
+    background-color: black;
+}

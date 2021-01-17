@@ -38,10 +38,15 @@ class Signup extends React.Component {
                                 Signup
                              </Button>
 
-                            <Button variant="warning" type="submit">
+                            <Button variant="warning" href="./">
                                 Go to Login
                             </Button>
-
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
                         </Form>
                     </Col>
                 </Row>
